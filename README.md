@@ -15,6 +15,12 @@ go build -o get_latestTechNews
 ./get_latestTechNews
 ```
 
+Running the program will also automatically add the `news` alias to your shell config (`~/.bashrc` or `~/.zshrc`) if it's not already there. After running once, you can reload your shell or start a new terminal and use:
+
+```bash
+news
+```
+
 ## Output
 
 Displays each article as:
